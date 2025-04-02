@@ -37,7 +37,7 @@ js/*.js
 .idea/**/dictionaries
 .idea/**/shelf
 
-output/
+output/n
 _output/
 apps/
 .DS_Store
