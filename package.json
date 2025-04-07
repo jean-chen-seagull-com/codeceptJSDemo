@@ -1,7 +1,7 @@
 {
   "scripts": {
     "executeOne": "npx codeceptjs run --features features/basic.feature",
-    "executeDesktop": "npx codeceptjs run --features features/uninstalldriver.feature --config=codecept-desktop.conf.ts --steps --debug"
+    "executeDesktop": "npx codeceptjs run --features features/uninstalldriver.feature --config=codecept-desktop.conf.ts --steps --debug --plugins allure"
   },
   "dependencies": {
     "@codeceptjs/allure-legacy": "^1.0.2",

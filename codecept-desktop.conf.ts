@@ -32,7 +32,8 @@ exports.config = {
   plugins: {
     screenshotOnFail: {
       enabled: true
-    }
+    },
+    allure: {  enabled: true,  require: 'allure-codeceptjs',  resultsDir: `./output/allure-results`}
   },
   stepTimeout: 0,
   stepTimeoutOverride: [{

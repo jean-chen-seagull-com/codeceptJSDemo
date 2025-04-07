@@ -30,8 +30,9 @@ Given(/^The user has installed a driver on the system$/, function () {
     //I.click("//Button[@Name='Next >']")
     I.click(installer.nextButton);
     //I.click("//Button[@Name='Next >']")
+    I.pressKey(["Alt","r"]);
+    //I.click("//CheckBox[@Name=\"Read installation instructions (contained in 'Installation_Instructions.html')\"]");
+    //I.uncheckOption("//CheckBox[@Name=\"Read installation instructions (contained in 'Installation_Instructions.html')\"]")
     //I.click(installer.finishButton);
     //I.click("//Button[@Name='Finish>']")
-    I.pressKey(["Alt","r"]);
-    //I.click("//CheckBox[@Name='Read installation instructions (contained in 'Installation_Instructions.html')']");
 });
