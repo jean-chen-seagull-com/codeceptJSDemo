@@ -1,6 +1,7 @@
 import path from "path";
 import * as fs from "fs";
 import {exec} from "child_process";
+import installer from "../pages/installer.page"
 
 const {I} = inject();
 
@@ -21,6 +22,16 @@ Given(/^The user has installed a driver on the system$/, function () {
         }
         console.log(stdout);
     });
+
     I.wait(3);
-    I.click("//RadioButton[@Name='I accept the terms in the license agreement']");
+    I.pressKey(["Alt","a"]);
+    //I.click("//RadioButton[@Name='I accept the terms in the license agreement']");
+    I.click(installer.nextButton);
+    //I.click("//Button[@Name='Next >']")
+    I.click(installer.nextButton);
+    //I.click("//Button[@Name='Next >']")
+    //I.click(installer.finishButton);
+    //I.click("//Button[@Name='Finish>']")
+    I.pressKey(["Alt","r"]);
+    //I.click("//CheckBox[@Name='Read installation instructions (contained in 'Installation_Instructions.html')']");
 });

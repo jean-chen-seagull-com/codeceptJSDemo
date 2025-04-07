@@ -1,34 +1,34 @@
-How found:	Mouse move (1238,384)
-	hwnd=0x000216D6 32bit class="Button" style=0x50000009 ex=0x4
-Name:	"I accept the terms in the license agreement"
-ControlType:	UIA_RadioButtonControlTypeId (0xC35D)
-LocalizedControlType:	"radio button"
-BoundingRectangle:	{l:1153 t:379 r:1380 b:395}
+How found:	Mouse move (1234,519)
+	hwnd=0x000305A4 32bit class="Button" style=0x50010403 ex=0x4
+Name:	"Read installation instructions (contained in 'Installation_Instructions.html')"
+ControlType:	UIA_CheckBoxControlTypeId (0xC352)
+LocalizedControlType:	"check box"
+BoundingRectangle:	{l:1180 t:512 r:1617 b:528}
 IsEnabled:	true
 IsOffscreen:	false
 IsKeyboardFocusable:	true
 HasKeyboardFocus:	false
-AccessKey:	"Alt+a"
-ProcessId:	12516
-RuntimeId:	[2A.216D6]
-AutomationId:	"1005"
+AccessKey:	"Alt+r"
+ProcessId:	7336
+RuntimeId:	[2A.305A4]
+AutomationId:	"1011"
 FrameworkId:	"Win32"
 ClassName:	"Button"
-NativeWindowHandle:	0x216D6
-ProviderDescription:	"[pid:13680,providerId:0x216D6 Main:Nested [pid:12516,providerId:0x216D6 Annotation(parent link):Microsoft: Annotation Proxy (unmanaged:uiautomationcore.dll); Main:Microsoft: MSAA Proxy (unmanaged:uiautomationcore.dll)]; Hwnd(parent link):Microsoft: HWND Proxy (unmanaged:uiautomationcore.dll)]"
+NativeWindowHandle:	0x305A4
+ProviderDescription:	"[pid:8,providerId:0x305A4 Main:Nested [pid:7336,providerId:0x305A4 Annotation(parent link):Microsoft: Annotation Proxy (unmanaged:uiautomationcore.dll); Main:Microsoft: MSAA Proxy (unmanaged:uiautomationcore.dll)]; Hwnd(parent link):Microsoft: HWND Proxy (unmanaged:uiautomationcore.dll)]"
 IsPassword:	false
 HelpText:	""
 IsDialog:	false
 LegacyIAccessible.ChildId:	0
-LegacyIAccessible.DefaultAction:	"Check"
+LegacyIAccessible.DefaultAction:	"Uncheck"
 LegacyIAccessible.Description:	""
 LegacyIAccessible.Help:	""
-LegacyIAccessible.KeyboardShortcut:	"Alt+a"
-LegacyIAccessible.Name:	"I accept the terms in the license agreement"
-LegacyIAccessible.Role:	radio button (0x2D)
-LegacyIAccessible.State:	focusable (0x100000)
+LegacyIAccessible.KeyboardShortcut:	"Alt+r"
+LegacyIAccessible.Name:	"Read installation instructions (contained in 'Installation_Instructions.html')"
+LegacyIAccessible.Role:	check box (0x2C)
+LegacyIAccessible.State:	checked,focusable (0x100010)
 LegacyIAccessible.Value:	""
-SelectionItem.IsSelected:	false
+Toggle.ToggleState:	On (1)
 IsAnnotationPatternAvailable:	false
 IsDragPatternAvailable:	false
 IsDockPatternAvailable:	false
@@ -44,7 +44,7 @@ IsObjectModelPatternAvailable:	false
 IsRangeValuePatternAvailable:	false
 IsScrollItemPatternAvailable:	false
 IsScrollPatternAvailable:	false
-IsSelectionItemPatternAvailable:	true
+IsSelectionItemPatternAvailable:	false
 IsSelectionPatternAvailable:	false
 IsSpreadsheetItemPatternAvailable:	false
 IsSpreadsheetPatternAvailable:	false
@@ -56,7 +56,7 @@ IsTextChildPatternAvailable:	false
 IsTextEditPatternAvailable:	false
 IsTextPatternAvailable:	false
 IsTextPattern2Available:	false
-IsTogglePatternAvailable:	false
+IsTogglePatternAvailable:	true
 IsTransformPatternAvailable:	false
 IsTransform2PatternAvailable:	false
 IsValuePatternAvailable:	false
@@ -66,8 +66,8 @@ IsCustomNavigationPatternAvailable:	false
 IsSelectionPattern2Available:	false
 FirstChild:	[null]
 LastChild:	[null]
-Next:	"I do not accept the terms in the license agreement" radio button
-Previous:	"" document
+Next:	[null]
+Previous:	"Run Driver Wizard after unpacking drivers" check box
 Other Props:	Object has no additional properties
 Children:	Container has no children
 Ancestors:	"Windows Printer Drivers" dialog
